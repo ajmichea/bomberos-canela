@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+	position:fixed;
+	right:0;
+	left:0;
+	z-index:1;
+}
+
+section {
+  flex: 1;
+  padding-top: 7%;
+}
+
+footer {
+ width:100%;
+ height:auto;
+ display: inline-block;
+}
+
+img.edicion{
+	max-width: 90%;
+	max-height: 90%;
+}
+
+label.lbl{
+	max-width: 100%;
+}
+
+.volver{
+	float: right;
+	padding-right: 10px;
+}
+
+textarea.parrafo{
+	width: 100%;
+}
